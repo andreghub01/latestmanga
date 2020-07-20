@@ -1,0 +1,283 @@
+/*
+Theme Name: Latest Theme
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: Wiku Team
+Author URI: http://wordpress.org/
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+    font-family: 'Montserrat';
+    background-color: #EFF6FB;
+    line-height:20px;
+}
+
+nav {
+    min-height: 70px;
+    background-color: #121212;;
+}
+
+.nav-link{
+padding: 0px;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+/* Home */
+.icon-star{
+font-size:25px;
+color: yellow;
+}
+svg {
+height: 18px;
+color:white;
+}
+
+.svg-icon {
+  width: 1.3em;
+  height: 1.3em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #ffffff;
+}
+
+.svg-icon circle {
+  stroke: #ffffff;
+  stroke-width: 1;
+}
+.jumbotron {
+    color: #ffffff;   
+    background-position: center;
+}
+.bannerHome {
+    height: 270px;
+
+}
+.bannerDetail{
+    height: 700px;
+}
+.card-rounded{
+    border-radius: 1rem;
+}
+.card-content {
+    margin-top: -70px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.table thead th {
+    border-bottom: none;
+}
+
+.borderless tbody tr {
+    font-weight: bold;
+    border: 1px solid rgba(215, 215, 215, 0.6);
+}
+
+.top .table thead th {
+    font-weight: bold;
+    vertical-align: bottom;
+    border-bottom: 1px solid #00A3FF;
+border-top:none;
+}
+
+.top tbody tr {
+    font-weight: bold;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 6sem;
+}
+hr {
+    margin-top: 15px;
+    border-top: 1px solid #00A3FF;
+}
+
+.category {
+    font-size: 14px;
+}
+.titleManga {
+    font-size: 16px; font-weight: 600;
+}
+
+.lastChapter {
+    font-weight: 600;font-size: 16px;   line-height:20px;color: #FFC107;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+
+.rating {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.rating-badge{
+position: absolute;
+bottom: 1rem;
+right: 0;
+background-color: black;
+color: white;
+font-size:12px;
+padding: 1px 5px;
+}
+
+.lastUpdate {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+}
+.latestDiscussions li{
+font-weight: 500;
+padding: 0.1rem 1.25rem;
+}
+.latestDiscussions h6{
+    font-size: 14px;
+    color: #00A3FF;
+}
+.latestDiscussions p {
+    font-size: 12px;
+    color: #828282;
+}
+
+.f-10{ font-size:10px}
+.f-12{ font-size:12px}
+.f-14{ font-size:14px}
+.f-16{ font-size:16px}
+.f-20{ font-size:20px}
+.fw-600{font-weight:600}
+
+footer {
+    height: 160px;
+    background-color: #121212;
+}
+
+.titleSearch {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    color: #4F4F4F;
+}
+
+.sipnosis{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+}
+
+.titleDetail {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.card-content-detail{
+    margin-top: -400px;
+}
+
+.btnLastChapter {
+    padding: 10px;
+    border: 1px solid #00A3FF;
+}
+
+.list-group-item {
+    border: 0px;
+}
+
+.list-group-item-detail {
+    border: 1px solid rgba(215, 215, 215, 0.6);
+    border-radius: 10px;
+}
+
+.grey {
+    border: 1px solid rgba(215, 215, 215, 0.6);
+border-top:none;
+}
+
+.elips {
+    border-radius: 2rem;
+}
+
+#genres {
+line-height: 26px;
+}
+
+#genres .active{
+    color: #ffffff;
+    background-color: #00A3FF;
+    border-radius: 2rem;
+    padding: 5px 15px 5px 15px;
+}
+
+.listGenres li {
+    padding: 0px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#listScrollHorizontal {
+    overflow-x: scroll;
+    overflow-y: hidden;
+ }
+ 
+#listScrollHorizontal ul {
+    max-height: 300px;
+    margin: 0;
+    padding: 0;
+}
+#listScrollHorizontal li {
+    float: left;
+    list-style: none;
+max-width: 200px;
+padding-bottom: 20px;
+}
+
+.thumbnail-w100 {
+max-width:100%;height:auto;
+}
+
+.thumbnail-latest{
+max-width:100%;max-height:225px;
+}
+
+.min-h-comic{
+min-height:24rem;
+}
+
+.bottom-content{
+position : absolute;
+bottom   : 0;
+}
